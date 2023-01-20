@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #24292e;
+}
+
+header {
+  max-width: 800px;
+  height: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.ul ul{
+  display: flex;
+}
+
+.ul a {
+  text-decoration: none;
+}
+
+.ul li {
+  list-style-type: none;
+  margin-left: 30px;
+  font-size: 0.9rem;
+}
+
+.ul img {
+  width: 20px;
+}
+
+.main-image img{
+  width: 100%;
+  max-width: 1920px;
+  height: 420px;
+  object-fit: cover;
+  margin-bottom: 80px;
+}
+
+#wrapper {
+  margin: 0 auto 130px auto;
+  max-width: 800px;
+  font-size: 0.9rem;
+  padding: 0 4%;
+}
+
+.main-About h2{
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.main-About p {
+  margin-bottom: 30px;
+}
+
+.main-Works h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 65px;
+}
+
+.main-Works ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.main-Works li {
+  list-style: none;
+  width: 31%;
+  margin-bottom: 23px;
+}
+
+.main-Works img {
+  max-width: 100%;
+}
+
+.main-News h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 65px;
+}
+
+.main-News dl {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid 1px #c8c8c8;
+  margin-bottom: 20px;
+}
+
+.main-News dt {
+  width: 20%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px 0;
+}
+
+.main-News dd {
+  width: 80%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px 0;
+}
+
+.main-Contact h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 65px;
+}
+
+.main-Contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.main-Contact dt {
+  width: 15%;
+}
+
+.main-Contact dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+
+.main-Contact dd input {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+}
+
+.main-Contact dd textarea {
+  height: 10rem;
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+}
+
+.button {
+  text-align: center;
+}
+
+.button input {
+  width: 200px;
+  background-color: #24292e;
+  color: #fff;
+  padding: 15px 0;
+  border: solid 1px #24292e;
+}
+
+footer {
+  background-color: #24292e;
+  font-size: 0.5rem;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+}
+
